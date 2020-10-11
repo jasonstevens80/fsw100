@@ -5,7 +5,13 @@ h1 {
 }
 
 
-Div h1,
+.header  {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-align: center;
+}
+a {
+  text-decoration: none;
+}
 h2 {
   font-family: Georgia, "Times New Roman", Times, serif;
   text-align: center;
@@ -25,7 +31,7 @@ img {
   width: 250px;
   height: auto;
 }
-P {
+main {
   font-size: 20;
   line-height: 40px;
 }
