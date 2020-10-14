@@ -14,14 +14,19 @@ background-color:red
 ;
 
 }
+.home{
+    position: relative;
+    left:100px;
+}
+
 
 .about{
     position: relative;
-    left: 1000px
+    left: 1300px
 }
 .menu{
     position: relative;
-    left: 500px
+    left: 700px
   
 }
 html, body{
