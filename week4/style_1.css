@@ -1,0 +1,93 @@
+  
+html{
+    background-color: rgb(168, 159, 247);
+    font-family: 'Sansita Swashed', cursive;
+}
+nav{
+    position:fixed;
+    width:100%;
+    height:50px;
+    background:#42455a;
+    color:white;
+    }
+.mainpic{
+   display:block;
+   margin-left:auto;
+   margin-right:auto;
+   width:100%;
+}
+.home{
+    position: relative;
+    left:20px;
+}
+.menu{
+    position:relative;
+    left:350px;
+}
+.about{
+    position:relative;
+    left:400px;
+}
+h1{
+    text-align: center;
+}
+h3{
+    text-align:center;
+}
+.title{
+    border:solid 2px black;
+    margin:10px;
+    padding:10px;
+    background-color:lightslategrey;
+}
+
+.Picleft{
+    max-width:50%;
+    height:auto;
+    margin-left:auto;
+    margin-right:auto;
+    display:block;
+    padding:25px;
+    
+ }
+
+ .CentralPic{
+    max-width:50%;
+    height:auto;
+    margin-left:auto;
+    margin-right:auto;
+    display:block;
+    padding:20px;
+    
+ }
+ .SouthPic{
+    max-width:50%;
+    height:auto;
+    margin-left:auto;
+    margin-right:auto;
+    display:block;
+    padding:25px;
+    
+ }
+main{
+    text-align:center;
+    display:block;
+    margin: 0 auto;
+}
+table, th, td{
+    border:1px solid black;
+    margin-left:auto;
+    margin-right:auto;
+    padding:20px;
+    margin-top: 20px;
+    width:75%;
+    background-color:lightsteelblue;
+}
+ul{
+    list-style-type: none;
+    
+}
+
+
+
+
