@@ -1,7 +1,7 @@
   
 html{
     background-color: rgb(168, 159, 247);
-    font-family: 'Sansita Swashed', cursive;
+    
 }
 nav{
     position:fixed;
@@ -87,6 +87,8 @@ main{
     display:block;
     margin: 0 auto;
     padding:50px;
+    
+  
 }
 table, th, td{
     border:1px solid black;
