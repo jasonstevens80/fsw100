@@ -35,9 +35,6 @@ nav{
         background: lightgrey;
         transition: .5s;
     }
-
-
-
    .mainpic{
    display:block;
    margin-left:auto;
@@ -102,6 +99,9 @@ table, th, td{
 ul{
     list-style-type: none;
     
+}
+iframe{
+    padding:25px;
 }
 
 
