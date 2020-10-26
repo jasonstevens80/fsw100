@@ -1,0 +1,82 @@
+#box1{
+    width:200px;
+    height:200px;
+    border: 1px solid black;
+    background-color: greenyellow;
+    transition: background-color 1s, linear 1s , width 1s linear 1s;
+}
+#box2{
+    width:200px;
+    height:200px;
+    border: 1px solid black;
+    background-color: navy;
+    transition: background-color 1s ease-in-out 1s , height 1s  linear 1s , border-width 1s ease-in 1s; 
+}
+
+#box3{
+    width:200px;
+    height:200px;
+    border: 1px solid black;
+    background-color: orangered;
+    transition: margin 1s ease-out 1s, padding 1s linear 1s,box-shadow 1s
+}
+
+#box4{
+    width:200px;
+    height:200px;
+    border: 1px solid black;
+    background-color: olivedrab;
+    transition:background-color 1s ease-in 1s, border-style 1s linear, border-color 1s ease-out, border-width 1s linear
+    
+}
+
+#box5{
+    width:200px;
+    height:200px;
+    border: 1px solid black;
+    background-color: rebeccapurple;
+    opacity: .5;
+    transition: opacity 1s, width 1s;
+}
+
+#box6{
+    width:200px;
+    height:200px;
+    border: 1px solid black;
+    background-color: burlywood;
+    transition: transform 1s linear 1s , background-color 1s linear 1s
+}
+
+
+
+#box1:hover{
+    background-color:firebrick;
+    width:300px;
+    position:fixed;
+}
+#box2:hover{
+    background-color:aquamarine;
+    height:600px;
+    border-color:green;
+    border-width:10px;
+}
+#box3:hover{
+    padding:50px;
+    margin:10px;
+    box-shadow:10px 20px;
+}
+#box4:hover{
+    background-color: cyan;
+    border-style: dotted;
+    border-color: darkgoldenrod;
+    border-width: 50px;
+}
+#box5:hover{
+    opacity: 1;
+    width:500px;
+}
+#box6:hover{
+    transform: rotate(180deg);
+    background-color:blueviolet;
+    
+} 
