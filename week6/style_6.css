@@ -233,7 +233,9 @@ table, th, td{
 
 }
 @media only screen  and (min-width:1200px){
-
+html{
+    text-align:center;
+}
 
 .logo{
     width:800px;
@@ -249,22 +251,21 @@ table, th, td{
  }
  .mainpic{
     grid-column:1 /2;
-    grid-row:2;
+    grid-row:1;
     width:500px;
     height:auto;
     padding:20px;
    
 }
-.h1story{
-   text-align: center;
-    grid-column:1/3;
-    grid-row:1;
-}
+
+
 .pstory{
-    grid-row:2;
+    grid-row:1;
     grid-column:2/3;
-    width:50%;
-   
+    width:75%;
+    align-items:right;
+    
+    
 }
     .tacos{
         
@@ -275,33 +276,30 @@ table, th, td{
         grid-template:auto;
         text-align:center;
 }
-    .outacos{
-        grid-row:1;
-        text-align:center;
-    }
+   
     .taco1{
         grid-column:1/2;
-        grid-row:2;
+        grid-row:1;
     }
     .taco2{
         grid-column:2/3;
-        grid-row:2;
+        grid-row:1;
     }
     .taco3{
         grid-column:3/4;
-        grid-row:2;
+        grid-row:1;
     }
     .taco4{
         grid-column:1/2;
-        grid-row:3;
+        grid-row:2;
     }
     .taco5{
         grid-column:2/3;
-        grid-row:3;
+        grid-row:2;
     }
     .taco6{
         grid-column:3/4;
-        grid-row:3;
+        grid-row:2;
     }
     
     .menu{
