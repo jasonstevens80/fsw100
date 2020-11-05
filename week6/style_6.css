@@ -1,16 +1,18 @@
 html{
-    background-color:lightgrey;
+    background-color:whitesmoke;
     
 }
+
 a{
     text-decoration: none;
 }
+
 nav{
     display:fixed;
     justify-content:space-around;
     width:100%;
-    height:80px;
-    background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
+    height:100px;
+    background-color:green;
     color:white;
     opacity: 75%;
     text-align:center;
@@ -34,13 +36,16 @@ nav{
     }
     nav ul li a{
         color: white;
-        font-size:17px;
+        font-size:20px;
         text-transform: uppercase;
         margin:40px;
-        /* padding:40px; */
-        
+        transition: color 2s;
+       
     }
-
+    nav ul li a:hover{
+        color:red;
+    }
+   
     .logo{
         display:block;
         width:25%;
@@ -71,6 +76,11 @@ nav{
         width:400px;
         object-fit:cover;
         object-position: center center;
+        opacity:.75;
+        
+    }
+    .img:hover{
+        opacity:1.0;
     }
 
 
@@ -81,16 +91,54 @@ table, th, td{
     padding:20px;
     margin-top: 20px;
     width:75%;
-    background-color:lightsteelblue;
     text-align: center;
+   
+}
+td:hover{
+    background-color:green;
+    color:white;
+}
+td{
+    transition: color 2s, background-color 2s;
+    
+    
 }
 
+
+footer{
+    background-color:red;
+    color:white;
+    height:100px;
+    width:100%;
+    font-size:20px;
+}
+h1{
+    text-align:center;
+}
+.taco1{
+    text-align:center;
+}
+.taco2{
+    text-align:center;
+}
+.taco3{
+    text-align:center;
+}
+.taco4{
+    text-align:center;
+}
+.taco5{
+    text-align:center;
+}
+.taco6{
+    text-align:center;
+}
 
 
 
 @media only screen  and (max-width: 768px){
     ul{
-        background-color:black;
+        background-color:green;
         width:100%;
     }
     .logo{
@@ -106,7 +154,8 @@ table, th, td{
     
         
     label.name{
-      font-size:20px;
+      font-size:30px;
+      width:100%;
     }
     .mainpic{
         width:500px;
@@ -117,6 +166,7 @@ table, th, td{
     .title{
         align-items:center;
     }
+  
  
   
 
@@ -126,15 +176,14 @@ table, th, td{
 @media only screen  and (min-width:768px) and (max-width: 1200px){
 
 
-
     ul{
-        background-color: black;
+        background-color: green;
         width:100%;
         
     }
 
     .title{
-        background-color:lightgray;
+        background-color:white;
         min-width:50px;
         min-height:50px;
         object-fit:cover;
@@ -152,8 +201,11 @@ table, th, td{
     .img{
         height:250px;
         width:250px;
-
-    
+        transition: height 2s, width 2s;
+    }
+    .img:hover{
+        height:350px;
+        width:auto;
     }
     .story{
        
@@ -257,6 +309,10 @@ html{
     padding:20px;
    
 }
+.mainpic:hover{
+    width:500px;
+    height:auto;
+}
 
 
 .pstory{
@@ -308,8 +364,20 @@ html{
     }
     
     
-
-
+.img{width:400px;
+    height:400px;
+    transition: width 2s, height 2s;
+    
+}
+img:hover{
+    width:500px;
+    height:500px;
+    
+}
+.logo:hover{
+    width:800px;
+    height:auto;
+}
 
 
 
